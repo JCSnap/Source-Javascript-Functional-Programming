@@ -22,9 +22,7 @@ function empty_order() {
     return 0;
 }
 
-function add_to_order(x) {
-    
-
+function add_to_order(x, y) {
+    10*x + y;
 }
-combo_price(5); 
-empty_order();
+add_to_order(231, 4);
