@@ -12,7 +12,7 @@ function is_biggie_size(x) {
 
 function combo_price(x) {
     return x%4===0 //the case where x==4 or x==8 
-    ? 1.17*4 +(0.5)*math_floor(x/5) // if x is 4, this whole thing = 0, else 0.5
+    ? 1.17*4 + (0.5)*math_floor(x/5) // if x is 4, this whole thing = 0, else 0.5
     :1.17*(x%4) + 0.5*math_floor(x/5);
 }
 
